@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Tela de Login</title>
+</head>
+<body>
+  <main class="container">
+     <h1>Login <br>de<br> Usuário</h1>
+
+    <form id="form">
+
+  <div class="input-box">
+    <input type="email" id="email" placeholder="Usuário" required>
+    <i class="bx bxs-user"></i>
+  </div>
+
+  <div class="input-box">
+    <input type="password" id="senha" placeholder="Senha" required>
+    <i class="bx bx-show" id="toggleSenha"></i>
+  </div>
+
+  <div class="remember-forgot">
+    <label>
+      <input type="checkbox" id="lembrar">
+      Lembrar minha senha<br>
+    </label>
+    <a href="#">Esqueci minha senha</a>
+  </div>
+
+  <button type="submit" id="loginBtn">Login</button>
+      <div class="register-link">
+        <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+      </div>
+
+
+    </form>
+    <ul id="lista"></ul>
+  
+
+</main>
+
+  <script src="scripts/scripts.js"></script>
+</body>
+</html>
